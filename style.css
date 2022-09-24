@@ -5,6 +5,8 @@
     font-family: Helvetica, sans-serif;
 }
 
+
+
 .main {
     background-color: black;
     width: 400px;
@@ -29,10 +31,19 @@
 
 .screen {
     /* background-color: red; */
-    width: 100%;
+    width: 80%;
     height: 250px;
     border-radius: 20px;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-left: 3rem;
+    /* flex-wrap: nowrap; */
+
 }
+
 
 .grid-item1,
 .grid-item2,
